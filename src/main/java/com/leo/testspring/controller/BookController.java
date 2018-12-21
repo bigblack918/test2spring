@@ -6,6 +6,8 @@ import com.leo.testspring.service.BookService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.BeanWrapper;
+import org.springframework.beans.BeanWrapperImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -13,14 +15,16 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
+import java.beans.PropertyDescriptor;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/v1")
 public class BookController {
 
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     BookService bookService;
@@ -81,9 +85,28 @@ public class BookController {
     @PutMapping("/books/{id}")
     public ResponseEntity<?> updateBook(@PathVariable Long id,  @RequestBody Book book){
         Book currentBook = bookService.findBookById(id);
-        BeanUtils.copyProperties(book, currentBook);
+        book.setId(id);
+        convert(book, currentBook);
         Book book1 = bookService.updateBook(currentBook);
         return new ResponseEntity<Book>(book1, HttpStatus.OK);
+    }
+
+    private void convert(Book bookupdate, Book currentBook){
+        String[] nullPropertyName = getNullPropertyName(bookupdate);
+        BeanUtils.copyProperties(bookupdate, currentBook, nullPropertyName);
+    }
+
+    private String[] getNullPropertyName(Book bookupdate){
+        BeanWrapper beanWrapper = new BeanWrapperImpl(bookupdate);
+        PropertyDescriptor[] pds = beanWrapper.getPropertyDescriptors();
+        List<String> nullPropertyList = new ArrayList<>();
+        for(PropertyDescriptor pd: pds){
+            String propertyName = pd.getName();
+            if(beanWrapper.getPropertyValue(propertyName) == null){
+                nullPropertyList.add(propertyName);
+            }
+        }
+        return nullPropertyList.toArray(new String[nullPropertyList.size()]);
     }
 
     /**
