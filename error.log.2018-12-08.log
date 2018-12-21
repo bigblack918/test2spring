@@ -1,0 +1,160 @@
+2018-12-08 00:20:29,425 [main] INFO  c.l.testspring.TestspringApplication 50 - Starting TestspringApplication on NB161200001.local with PID 31456 (/Users/i_leotsai1/Documents/workspace_idea/testspring/out/production/classes started by i_leotsai1 in /Users/i_leotsai1/Documents/workspace_idea/testspring)
+2018-12-08 00:20:29,435 [main] DEBUG c.l.testspring.TestspringApplication 53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-08 00:20:29,442 [main] INFO  c.l.testspring.TestspringApplication 679 - The following profiles are active: dev
+2018-12-08 00:20:32,069 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-08 00:20:32,406 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 182 - Finished Spring Data repository scanning in 316ms. Found 1 repository interfaces.
+2018-12-08 00:20:33,101 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7a3d0e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 00:20:33,805 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2018-12-08 00:20:33,884 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-08 00:20:33,916 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2018-12-08 00:20:33,917 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-08 00:20:33,934 [main] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/i_leotsai1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-08 00:20:34,672 [main] INFO  org.apache.jasper.servlet.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-08 00:20:34,677 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2018-12-08 00:20:34,678 [main] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 5073 ms
+2018-12-08 00:20:34,874 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2018-12-08 00:20:35,160 [main] INFO  com.zaxxer.hikari.pool.PoolBase 525 - HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2018-12-08 00:20:35,165 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2018-12-08 00:20:35,456 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-08 00:20:35,634 [main] INFO  org.hibernate.Version 46 - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-08 00:20:35,642 [main] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2018-12-08 00:20:35,908 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-08 00:20:36,172 [main] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-08 00:20:36,235 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl 98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-12-08 00:21:28,312 [main] INFO  c.l.testspring.TestspringApplication 50 - Starting TestspringApplication on NB161200001.local with PID 31515 (/Users/i_leotsai1/Documents/workspace_idea/testspring/out/production/classes started by i_leotsai1 in /Users/i_leotsai1/Documents/workspace_idea/testspring)
+2018-12-08 00:21:28,321 [main] DEBUG c.l.testspring.TestspringApplication 53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-08 00:21:28,323 [main] INFO  c.l.testspring.TestspringApplication 679 - The following profiles are active: dev
+2018-12-08 00:21:29,598 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-08 00:21:29,695 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 182 - Finished Spring Data repository scanning in 84ms. Found 1 repository interfaces.
+2018-12-08 00:21:30,215 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f8e1a08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 00:21:30,552 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2018-12-08 00:21:30,568 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-08 00:21:30,577 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2018-12-08 00:21:30,577 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-08 00:21:30,586 [main] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/i_leotsai1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-08 00:21:30,832 [main] INFO  org.apache.jasper.servlet.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-08 00:21:30,838 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2018-12-08 00:21:30,838 [main] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 2421 ms
+2018-12-08 00:21:30,999 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2018-12-08 00:21:31,202 [main] INFO  com.zaxxer.hikari.pool.PoolBase 525 - HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2018-12-08 00:21:31,206 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2018-12-08 00:21:31,368 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-08 00:21:31,474 [main] INFO  org.hibernate.Version 46 - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-08 00:21:31,475 [main] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2018-12-08 00:21:31,660 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-08 00:21:31,813 [main] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-08 00:21:31,846 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl 98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-12-08 00:21:32,535 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-08 00:21:33,123 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-08 00:21:33,170 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 234 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-08 00:21:33,296 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 61 - Adding welcome page template: index
+2018-12-08 00:21:33,385 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-08 00:21:33,406 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read
+2018-12-08 00:21:33,433 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-08 00:21:33,437 [main] INFO  c.l.testspring.TestspringApplication 59 - Started TestspringApplication in 5.965 seconds (JVM running for 7.537)
+2018-12-08 00:21:38,547 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-08 00:21:38,549 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2018-12-08 00:21:38,607 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 546 - Completed initialization in 57 ms
+2018-12-08 00:21:38,917 [http-nio-8080-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator 47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-12-08 00:21:39,158 [http-nio-8080-exec-1] DEBUG c.l.t.controller.MemberController 30 - A DEBUG Message
+2018-12-08 00:21:39,158 [http-nio-8080-exec-1] INFO  c.l.t.controller.MemberController 31 - An INFO Message
+2018-12-08 00:21:39,158 [http-nio-8080-exec-1] WARN  c.l.t.controller.MemberController 32 - A WARN Message
+2018-12-08 00:21:39,159 [http-nio-8080-exec-1] ERROR c.l.t.controller.MemberController 33 - An ERROR Message
+2018-12-08 00:22:28,127 [Thread-16] INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-08 00:22:28,138 [Thread-16] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-08 00:22:28,173 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2018-12-08 00:22:28,182 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2018-12-08 00:22:55,374 [main] INFO  c.l.testspring.TestspringApplication 50 - Starting TestspringApplication on NB161200001.local with PID 31543 (/Users/i_leotsai1/Documents/workspace_idea/testspring/out/production/classes started by i_leotsai1 in /Users/i_leotsai1/Documents/workspace_idea/testspring)
+2018-12-08 00:22:55,394 [main] DEBUG c.l.testspring.TestspringApplication 53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-08 00:22:55,396 [main] INFO  c.l.testspring.TestspringApplication 679 - The following profiles are active: dev
+2018-12-08 00:22:56,597 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-08 00:22:56,682 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 182 - Finished Spring Data repository scanning in 73ms. Found 1 repository interfaces.
+2018-12-08 00:22:57,179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b89e96b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 00:22:57,774 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2018-12-08 00:22:57,829 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-08 00:22:57,851 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2018-12-08 00:22:57,851 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-08 00:22:57,868 [main] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/i_leotsai1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-08 00:22:58,549 [main] INFO  org.apache.jasper.servlet.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-08 00:22:58,560 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2018-12-08 00:22:58,561 [main] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 3044 ms
+2018-12-08 00:22:58,756 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2018-12-08 00:22:59,049 [main] INFO  com.zaxxer.hikari.pool.PoolBase 525 - HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2018-12-08 00:22:59,053 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2018-12-08 00:22:59,550 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-08 00:22:59,889 [main] INFO  org.hibernate.Version 46 - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-08 00:22:59,896 [main] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2018-12-08 00:23:00,249 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-08 00:23:00,462 [main] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-08 00:23:00,503 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl 98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-12-08 00:23:01,985 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-08 00:23:02,738 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-08 00:23:02,783 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 234 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-08 00:23:02,892 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 61 - Adding welcome page template: index
+2018-12-08 00:23:03,009 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-08 00:23:03,038 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read
+2018-12-08 00:23:03,067 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-08 00:23:03,071 [main] INFO  c.l.testspring.TestspringApplication 59 - Started TestspringApplication in 8.607 seconds (JVM running for 9.991)
+2018-12-08 00:23:07,538 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-08 00:23:07,539 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2018-12-08 00:23:07,556 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 546 - Completed initialization in 17 ms
+2018-12-08 00:23:07,695 [http-nio-8080-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator 47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-12-08 00:23:07,870 [http-nio-8080-exec-1] DEBUG c.l.t.controller.MemberController 30 - A DEBUG Message
+2018-12-08 00:23:07,870 [http-nio-8080-exec-1] INFO  c.l.t.controller.MemberController 31 - An INFO Message
+2018-12-08 00:23:07,870 [http-nio-8080-exec-1] WARN  c.l.t.controller.MemberController 32 - A WARN Message
+2018-12-08 00:23:07,870 [http-nio-8080-exec-1] ERROR c.l.t.controller.MemberController 33 - An ERROR Message
+2018-12-08 00:23:25,321 [Thread-21] INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-08 00:23:25,322 [Thread-21] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-08 00:23:25,327 [Thread-21] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2018-12-08 00:23:25,331 [Thread-21] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2018-12-08 00:27:17,743 [main] INFO  c.l.testspring.TestspringApplication 50 - Starting TestspringApplication on NB161200001.local with PID 31631 (/Users/i_leotsai1/Documents/workspace_idea/testspring/out/production/classes started by i_leotsai1 in /Users/i_leotsai1/Documents/workspace_idea/testspring)
+2018-12-08 00:27:17,751 [main] DEBUG c.l.testspring.TestspringApplication 53 - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-08 00:27:17,755 [main] INFO  c.l.testspring.TestspringApplication 679 - The following profiles are active: dev
+2018-12-08 00:27:19,088 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-08 00:27:19,186 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 182 - Finished Spring Data repository scanning in 87ms. Found 1 repository interfaces.
+2018-12-08 00:27:19,756 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3876000] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-08 00:27:23,113 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2018-12-08 00:27:23,137 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-08 00:27:23,150 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2018-12-08 00:27:23,151 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-08 00:27:23,160 [main] INFO  o.a.c.core.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/i_leotsai1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-08 00:27:24,022 [main] INFO  org.apache.jasper.servlet.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-08 00:27:24,032 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2018-12-08 00:27:24,033 [main] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 6137 ms
+2018-12-08 00:27:24,272 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2018-12-08 00:27:24,782 [main] INFO  com.zaxxer.hikari.pool.PoolBase 525 - HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+2018-12-08 00:27:24,790 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2018-12-08 00:27:25,174 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-08 00:27:25,300 [main] INFO  org.hibernate.Version 46 - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-08 00:27:25,302 [main] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2018-12-08 00:27:25,621 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-08 00:27:25,842 [main] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-08 00:27:25,898 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl 98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-12-08 00:27:27,467 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-08 00:27:28,300 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-08 00:27:28,349 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 234 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-08 00:27:28,468 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 61 - Adding welcome page template: index
+2018-12-08 00:27:28,564 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-08 00:27:28,584 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 173 - Using a shared selector for servlet write/read
+2018-12-08 00:27:28,612 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-08 00:27:28,618 [main] INFO  c.l.testspring.TestspringApplication 59 - Started TestspringApplication in 11.501 seconds (JVM running for 12.717)
+2018-12-08 00:27:29,607 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-08 00:27:29,607 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2018-12-08 00:27:29,619 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet 546 - Completed initialization in 12 ms
+2018-12-08 00:27:29,694 [http-nio-8080-exec-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator 47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-12-08 00:27:29,822 [http-nio-8080-exec-1] DEBUG c.l.t.controller.MemberController 30 - A DEBUG Message
+2018-12-08 00:27:29,822 [http-nio-8080-exec-1] INFO  c.l.t.controller.MemberController 31 - An INFO Message
+2018-12-08 00:27:29,822 [http-nio-8080-exec-1] WARN  c.l.t.controller.MemberController 32 - A WARN Message
+2018-12-08 00:27:29,822 [http-nio-8080-exec-1] ERROR c.l.t.controller.MemberController 33 - An ERROR Message
+2018-12-08 00:27:40,331 [Thread-24] INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-08 00:27:40,333 [Thread-24] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-08 00:27:40,337 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2018-12-08 00:27:40,346 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
