@@ -20,7 +20,7 @@ import java.util.List;
 @RequestMapping("/v1")
 public class BookController {
 
-    Logger logger = LoggerFactory.getLogger(BookController.class);
+    Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     BookService bookService;
@@ -95,6 +95,7 @@ public class BookController {
     @DeleteMapping("/books/{id}")
     public ResponseEntity<?> deleteOneBook(@PathVariable Long id){
         bookService.deleteById(id);
+        logger.info("ID {} is deleted!", id);
         return new ResponseEntity<Object>(HttpStatus.NO_CONTENT);
     }
 
