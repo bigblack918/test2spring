@@ -18,6 +18,11 @@
 *.ipr
 /out/
 
+
+*.log
+*.gz
+*.jar
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
