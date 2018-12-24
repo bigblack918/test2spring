@@ -41,6 +41,7 @@ public class BookController {
      */
     @GetMapping("/books")
     public ResponseEntity<?> getAll(){
+        System.out.println("JoinPoint");
         return new ResponseEntity<List<Book>>(bookService.findAll(), HttpStatus.OK);
     }
 

@@ -36,6 +36,7 @@ dependencies {
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.1.1.RELEASE'
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-redis', version: '1.4.4.RELEASE'
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.1.1.RELEASE'
+	compile group: 'org.springframework', name: 'spring-aspects', version: '3.2.4.RELEASE'
 
 //	compile group: 'org.springframework.boot', name: 'spring-boot-starter-logging', version: '2.1.1.RELEASE'
 //	compile 'org.projectlombok:lombok:1.16.18'
