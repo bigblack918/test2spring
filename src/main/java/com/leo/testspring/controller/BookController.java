@@ -12,8 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.beans.PropertyDescriptor;
 import java.io.Serializable;
@@ -141,6 +143,13 @@ public class BookController {
     public ResponseEntity<String> showCustomizeBookName(){
         System.out.println(customizeBookName);
         return new ResponseEntity<String>(customizeBookName, HttpStatus.OK);
+    }
+
+
+    @GetMapping("/")
+    public ModelAndView index() {
+        ModelAndView mv = new ModelAndView("index");
+        return mv;
     }
 
 }
