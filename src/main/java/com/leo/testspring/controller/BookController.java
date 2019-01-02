@@ -1,6 +1,7 @@
 package com.leo.testspring.controller;
 
 import com.leo.testspring.RabbiteSender;
+import com.leo.testspring.exception.AppException;
 import com.leo.testspring.model.Book;
 import com.leo.testspring.service.BookService;
 import org.slf4j.Logger;
@@ -53,7 +54,11 @@ public class BookController {
      * @return
      */
     @GetMapping("/books/{id}")
-    public ResponseEntity<?> getBookById(@PathVariable Long id){
+    public ResponseEntity<?> getBookById(@PathVariable Long id) throws AppException {
+        if(id == 0){
+            logger.error(new AppException(0).getDescription());
+            throw new AppException("Id '%d' is null", id);
+        }
         return new ResponseEntity<Book>(bookService.findBookById(id), HttpStatus.OK);
     }
 
